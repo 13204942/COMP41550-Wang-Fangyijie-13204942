@@ -16,7 +16,6 @@
 		1812F2621900B43200377FB9 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1812F2611900B43200377FB9 /* libiconv.dylib */; };
 		1815FE24190198CE007279F2 /* BarChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1815FE23190198CE007279F2 /* BarChartView.m */; };
 		181A4E8718F439250037299D /* ViewAccountVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 181A4E8618F439250037299D /* ViewAccountVC.m */; };
-		181A4E8918F470BA0037299D /* EUR-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 181A4E8818F470BA0037299D /* EUR-32.png */; };
 		181A4E8C18F4734A0037299D /* PeriodRecordsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 181A4E8B18F4734A0037299D /* PeriodRecordsVC.m */; };
 		181A4E8F18F476F90037299D /* AllRecordsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 181A4E8E18F476F90037299D /* AllRecordsVC.m */; };
 		181A4E9218F47B920037299D /* DebtVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 181A4E9118F47B920037299D /* DebtVC.m */; };
@@ -37,14 +36,9 @@
 		1853BF7C18F2A27000DBFC2A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1853BF7A18F2A27000DBFC2A /* InfoPlist.strings */; };
 		1853BF7E18F2A27000DBFC2A /* MyAccountTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1853BF7D18F2A27000DBFC2A /* MyAccountTests.m */; };
 		1853BF9518F2B5A800DBFC2A /* MyAccountStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1853BF9418F2B5A800DBFC2A /* MyAccountStoryBoard.storyboard */; };
-		1867E2F618F47FD20074AB8B /* book-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 1867E2F518F47FD20074AB8B /* book-32.png */; };
-		1867E2F818F47FE70074AB8B /* combo-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 1867E2F718F47FE70074AB8B /* combo-32.png */; };
-		1867E2FA18F47FF10074AB8B /* list-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 1867E2F918F47FF10074AB8B /* list-32.png */; };
-		1867E2FC18F47FF90074AB8B /* leave-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 1867E2FB18F47FF90074AB8B /* leave-32.png */; };
 		1890C01118F83CE600F44114 /* Debt.m in Sources */ = {isa = PBXBuildFile; fileRef = 1890C01018F83CE600F44114 /* Debt.m */; };
 		1890C01418F83CE700F44114 /* Record.m in Sources */ = {isa = PBXBuildFile; fileRef = 1890C01318F83CE700F44114 /* Record.m */; };
 		18A0389718FA0AD5001152BF /* ViewDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A0389618FA0AD5001152BF /* ViewDetailVC.m */; };
-		18A0389918FA1091001152BF /* info-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A0389818FA1090001152BF /* info-32.png */; };
 		18A0389C18FA1244001152BF /* AboutVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A0389B18FA1244001152BF /* AboutVC.m */; };
 		18A0389F18FA1359001152BF /* RecordsDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A0389E18FA1359001152BF /* RecordsDetailVC.m */; };
 		18A514EE18F72E3300E4B783 /* NewRecordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A514ED18F72E3300E4B783 /* NewRecordVC.m */; };
@@ -59,6 +53,18 @@
 		18BCF470190858090020DA85 /* zbar-helpicons.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BCF467190858080020DA85 /* zbar-helpicons.png */; };
 		18BCF471190858090020DA85 /* zbar-samples.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BCF468190858080020DA85 /* zbar-samples.png */; };
 		18BCF472190858090020DA85 /* zbar-samples.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BCF468190858080020DA85 /* zbar-samples.png */; };
+		18BCF4741908596F0020DA85 /* book-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BCF4731908596F0020DA85 /* book-32.png */; };
+		18BCF4751908596F0020DA85 /* book-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BCF4731908596F0020DA85 /* book-32.png */; };
+		18BCF4771908597A0020DA85 /* leave-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BCF4761908597A0020DA85 /* leave-32.png */; };
+		18BCF4781908597A0020DA85 /* leave-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BCF4761908597A0020DA85 /* leave-32.png */; };
+		18BCF47A190859810020DA85 /* list-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BCF479190859810020DA85 /* list-32.png */; };
+		18BCF47B190859810020DA85 /* list-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BCF479190859810020DA85 /* list-32.png */; };
+		18BCF47D1908598A0020DA85 /* combo-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BCF47C1908598A0020DA85 /* combo-32.png */; };
+		18BCF47E1908598A0020DA85 /* combo-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BCF47C1908598A0020DA85 /* combo-32.png */; };
+		18BCF480190859D20020DA85 /* info-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BCF47F190859D20020DA85 /* info-32.png */; };
+		18BCF481190859D20020DA85 /* info-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BCF47F190859D20020DA85 /* info-32.png */; };
+		18BCF48319085A110020DA85 /* EUR-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BCF48219085A110020DA85 /* EUR-32.png */; };
+		18BCF48419085A110020DA85 /* EUR-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BCF48219085A110020DA85 /* EUR-32.png */; };
 		18D881E018FB39BC0091502C /* CoreDataTableTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D881DF18FB39BC0091502C /* CoreDataTableTableViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -86,7 +92,6 @@
 		1815FE23190198CE007279F2 /* BarChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarChartView.m; sourceTree = "<group>"; };
 		181A4E8518F439250037299D /* ViewAccountVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewAccountVC.h; sourceTree = "<group>"; };
 		181A4E8618F439250037299D /* ViewAccountVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewAccountVC.m; sourceTree = "<group>"; };
-		181A4E8818F470BA0037299D /* EUR-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "EUR-32.png"; sourceTree = "<group>"; };
 		181A4E8A18F4734A0037299D /* PeriodRecordsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeriodRecordsVC.h; sourceTree = "<group>"; };
 		181A4E8B18F4734A0037299D /* PeriodRecordsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeriodRecordsVC.m; sourceTree = "<group>"; };
 		181A4E8D18F476F90037299D /* AllRecordsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllRecordsVC.h; sourceTree = "<group>"; };
@@ -114,10 +119,6 @@
 		1853BF7B18F2A27000DBFC2A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1853BF7D18F2A27000DBFC2A /* MyAccountTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyAccountTests.m; sourceTree = "<group>"; };
 		1853BF9418F2B5A800DBFC2A /* MyAccountStoryBoard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MyAccountStoryBoard.storyboard; path = MyAccount/MyAccountStoryBoard.storyboard; sourceTree = "<group>"; };
-		1867E2F518F47FD20074AB8B /* book-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "book-32.png"; path = "../../../../../Downloads/book/book-32.png"; sourceTree = "<group>"; };
-		1867E2F718F47FE70074AB8B /* combo-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "combo-32.png"; path = "../../../../../Downloads/combo/combo-32.png"; sourceTree = "<group>"; };
-		1867E2F918F47FF10074AB8B /* list-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "list-32.png"; path = "../../../../../Downloads/list/list-32.png"; sourceTree = "<group>"; };
-		1867E2FB18F47FF90074AB8B /* leave-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "leave-32.png"; path = "../../../../../Downloads/leave/leave-32.png"; sourceTree = "<group>"; };
 		1890C00F18F83CE600F44114 /* Debt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Debt.h; sourceTree = "<group>"; };
 		1890C01018F83CE600F44114 /* Debt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Debt.m; sourceTree = "<group>"; };
 		1890C01218F83CE700F44114 /* Record.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Record.h; sourceTree = "<group>"; };
@@ -125,7 +126,6 @@
 		1897F5AE18F770E3009D460F /* MyAccountSceondModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyAccountSceondModel.xcdatamodel; sourceTree = "<group>"; };
 		18A0389518FA0AD5001152BF /* ViewDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewDetailVC.h; sourceTree = "<group>"; };
 		18A0389618FA0AD5001152BF /* ViewDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewDetailVC.m; sourceTree = "<group>"; };
-		18A0389818FA1090001152BF /* info-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "info-32.png"; path = "../../../../../Downloads/info/info-32.png"; sourceTree = "<group>"; };
 		18A0389A18FA1244001152BF /* AboutVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutVC.h; sourceTree = "<group>"; };
 		18A0389B18FA1244001152BF /* AboutVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutVC.m; sourceTree = "<group>"; };
 		18A0389D18FA1359001152BF /* RecordsDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordsDetailVC.h; sourceTree = "<group>"; };
@@ -159,6 +159,12 @@
 		18BCF466190858080020DA85 /* zbar-help.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "zbar-help.html"; sourceTree = "<group>"; };
 		18BCF467190858080020DA85 /* zbar-helpicons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zbar-helpicons.png"; sourceTree = "<group>"; };
 		18BCF468190858080020DA85 /* zbar-samples.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zbar-samples.png"; sourceTree = "<group>"; };
+		18BCF4731908596F0020DA85 /* book-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "book-32.png"; sourceTree = "<group>"; };
+		18BCF4761908597A0020DA85 /* leave-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "leave-32.png"; sourceTree = "<group>"; };
+		18BCF479190859810020DA85 /* list-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list-32.png"; sourceTree = "<group>"; };
+		18BCF47C1908598A0020DA85 /* combo-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "combo-32.png"; sourceTree = "<group>"; };
+		18BCF47F190859D20020DA85 /* info-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "info-32.png"; sourceTree = "<group>"; };
+		18BCF48219085A110020DA85 /* EUR-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "EUR-32.png"; sourceTree = "<group>"; };
 		18D881DE18FB39BC0091502C /* CoreDataTableTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataTableTableViewController.h; sourceTree = "<group>"; };
 		18D881DF18FB39BC0091502C /* CoreDataTableTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataTableTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -230,12 +236,12 @@
 		1820CC5B18FC87EF007769C5 /* PictureSources */ = {
 			isa = PBXGroup;
 			children = (
-				181A4E8818F470BA0037299D /* EUR-32.png */,
-				1867E2F518F47FD20074AB8B /* book-32.png */,
-				18A0389818FA1090001152BF /* info-32.png */,
-				1867E2FB18F47FF90074AB8B /* leave-32.png */,
-				1867E2F718F47FE70074AB8B /* combo-32.png */,
-				1867E2F918F47FF10074AB8B /* list-32.png */,
+				18BCF47F190859D20020DA85 /* info-32.png */,
+				18BCF4761908597A0020DA85 /* leave-32.png */,
+				18BCF48219085A110020DA85 /* EUR-32.png */,
+				18BCF4731908596F0020DA85 /* book-32.png */,
+				18BCF47C1908598A0020DA85 /* combo-32.png */,
+				18BCF479190859810020DA85 /* list-32.png */,
 			);
 			name = PictureSources;
 			sourceTree = "<group>";
@@ -514,19 +520,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18BCF4741908596F0020DA85 /* book-32.png in Resources */,
+				18BCF47A190859810020DA85 /* list-32.png in Resources */,
 				18BCF46D190858090020DA85 /* zbar-help.html in Resources */,
+				18BCF480190859D20020DA85 /* info-32.png in Resources */,
 				1853BF5F18F2A27000DBFC2A /* InfoPlist.strings in Resources */,
 				1853BF6A18F2A27000DBFC2A /* Images.xcassets in Resources */,
+				18BCF47D1908598A0020DA85 /* combo-32.png in Resources */,
 				18BCF46F190858090020DA85 /* zbar-helpicons.png in Resources */,
 				1853BF9518F2B5A800DBFC2A /* MyAccountStoryBoard.storyboard in Resources */,
+				18BCF48319085A110020DA85 /* EUR-32.png in Resources */,
+				18BCF4771908597A0020DA85 /* leave-32.png in Resources */,
 				18BCF471190858090020DA85 /* zbar-samples.png in Resources */,
-				181A4E8918F470BA0037299D /* EUR-32.png in Resources */,
-				18A0389918FA1091001152BF /* info-32.png in Resources */,
 				18BCF46B190858090020DA85 /* zbar-back.png in Resources */,
-				1867E2FA18F47FF10074AB8B /* list-32.png in Resources */,
-				1867E2F618F47FD20074AB8B /* book-32.png in Resources */,
-				1867E2FC18F47FF90074AB8B /* leave-32.png in Resources */,
-				1867E2F818F47FE70074AB8B /* combo-32.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -535,8 +541,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1853BF7C18F2A27000DBFC2A /* InfoPlist.strings in Resources */,
+				18BCF4781908597A0020DA85 /* leave-32.png in Resources */,
+				18BCF481190859D20020DA85 /* info-32.png in Resources */,
 				18BCF472190858090020DA85 /* zbar-samples.png in Resources */,
 				18BCF46E190858090020DA85 /* zbar-help.html in Resources */,
+				18BCF47B190859810020DA85 /* list-32.png in Resources */,
+				18BCF48419085A110020DA85 /* EUR-32.png in Resources */,
+				18BCF47E1908598A0020DA85 /* combo-32.png in Resources */,
+				18BCF4751908596F0020DA85 /* book-32.png in Resources */,
 				18BCF470190858090020DA85 /* zbar-helpicons.png in Resources */,
 				18BCF46C190858090020DA85 /* zbar-back.png in Resources */,
 			);
