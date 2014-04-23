@@ -97,7 +97,7 @@
     
     [enterdescription.layer setBorderColor:[[UIColor grayColor] CGColor]];
     [enterdescription.layer setBorderWidth:0.8];
-    [enterdescription.layer setCornerRadius:5.0f];
+    [enterdescription.layer setCornerRadius:7.0f];
     [enterdescription.layer setMasksToBounds:YES];
 }
 

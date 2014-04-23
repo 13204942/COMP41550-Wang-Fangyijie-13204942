@@ -111,7 +111,7 @@
     
     [description.layer setBorderColor:[[UIColor grayColor] CGColor]];
     [description.layer setBorderWidth:0.8];
-    [description.layer setCornerRadius:5.0f];
+    [description.layer setCornerRadius:7.0f];
     [description.layer setMasksToBounds:YES];
     
     
