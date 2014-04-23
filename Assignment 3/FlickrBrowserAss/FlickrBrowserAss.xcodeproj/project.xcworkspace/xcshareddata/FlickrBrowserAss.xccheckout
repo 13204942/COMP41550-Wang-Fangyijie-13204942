@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1E9AAAD4-45D1-4A48-92A4-DBD24EC1FECC</string>
+	<key>IDESourceControlProjectName</key>
+	<string>FlickrBrowserAss</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>11E05F58-B0B0-4D0D-823E-C82FF8DC9893</key>
+		<string>https://github.com/13204942/COMP41550-Wang-Fangyijie-13204942.git</string>
+		<key>3B50C58E-58F2-4677-8DCF-1DA6FBF7CA1B</key>
+		<string>https://github.com/GIT-CSI-UCD/COMP41550.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Assignment 3/FlickrBrowserAss/FlickrBrowserAss.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>11E05F58-B0B0-4D0D-823E-C82FF8DC9893</key>
+		<string>../../../..</string>
+		<key>3B50C58E-58F2-4677-8DCF-1DA6FBF7CA1B</key>
+		<string>../../../../../COMP41550</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/13204942/COMP41550-Wang-Fangyijie-13204942.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>11E05F58-B0B0-4D0D-823E-C82FF8DC9893</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3B50C58E-58F2-4677-8DCF-1DA6FBF7CA1B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>COMP41550</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>11E05F58-B0B0-4D0D-823E-C82FF8DC9893</string>
+			<key>IDESourceControlWCCName</key>
+			<string>COMP41550-Wang-Fangyijie-13204942</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -41,11 +41,11 @@ static const int MIN_SIDES = 3;
 - (void)setNumberOfSides:(NSUInteger)numberOfSides
 {
     if (numberOfSides > MAX_SIDES) {
-        NSLog(@"Invalid number of sides: %d is greater than the maximum of %d allowed", numberOfSides, MAX_SIDES);
+        NSLog(@"Invalid number of sides: %lu is greater than the maximum of %d allowed", (unsigned long)numberOfSides, MAX_SIDES);
         return;
     }
     if(numberOfSides < MIN_SIDES) {
-        NSLog(@"Invalid number of sides: %d is smaller than the minimum of %d allowed", numberOfSides, MIN_SIDES);
+        NSLog(@"Invalid number of sides: %lu is smaller than the minimum of %d allowed", (unsigned long)numberOfSides, MIN_SIDES);
         return;
     }
     _numberOfSides = numberOfSides;
@@ -91,7 +91,7 @@ static const int MIN_SIDES = 3;
 
 - (NSString *)description
 {
-    return [NSString stringWithFormat:@"Hello I am a %d-sided polygon (aka a %@).", self.numberOfSides, self.name];
+    return [NSString stringWithFormat:@"Hello I am a %lu-sided polygon (aka a %@).", (unsigned long)self.numberOfSides, self.name];
 }
 
 @end

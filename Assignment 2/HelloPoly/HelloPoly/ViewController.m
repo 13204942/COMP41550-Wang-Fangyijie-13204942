@@ -54,7 +54,7 @@
 - (void)updateUI {
     self.displayLabel.text = self.model.description;
     [self.displayLabel sizeToFit];
-    self.numberOfSidesLabel.text = [NSString stringWithFormat:@"%d", self.model.numberOfSides];
+    self.numberOfSidesLabel.text = [NSString stringWithFormat:@"%lu", (unsigned long)self.model.numberOfSides];
     [self.polygonView setNeedsDisplay];
 }
 

@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "18B9E89718841CCE0084D744"
-               BuildableName = "HelloPoly.app"
-               BlueprintName = "HelloPoly"
-               ReferencedContainer = "container:HelloPoly.xcodeproj">
+               BlueprintIdentifier = "1856BA3B18EA2299002E01FF"
+               BuildableName = "FlickrBrowserAss.app"
+               BlueprintName = "FlickrBrowserAss"
+               ReferencedContainer = "container:FlickrBrowserAss.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,20 +32,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "18B9E8B818841CCF0084D744"
-               BuildableName = "HelloPolyTests.xctest"
-               BlueprintName = "HelloPolyTests"
-               ReferencedContainer = "container:HelloPoly.xcodeproj">
+               BlueprintIdentifier = "1856BA5B18EA2299002E01FF"
+               BuildableName = "FlickrBrowserAssTests.xctest"
+               BlueprintName = "FlickrBrowserAssTests"
+               ReferencedContainer = "container:FlickrBrowserAss.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "18B9E89718841CCE0084D744"
-            BuildableName = "HelloPoly.app"
-            BlueprintName = "HelloPoly"
-            ReferencedContainer = "container:HelloPoly.xcodeproj">
+            BlueprintIdentifier = "1856BA3B18EA2299002E01FF"
+            BuildableName = "FlickrBrowserAss.app"
+            BlueprintName = "FlickrBrowserAss"
+            ReferencedContainer = "container:FlickrBrowserAss.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -61,10 +61,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "18B9E89718841CCE0084D744"
-            BuildableName = "HelloPoly.app"
-            BlueprintName = "HelloPoly"
-            ReferencedContainer = "container:HelloPoly.xcodeproj">
+            BlueprintIdentifier = "1856BA3B18EA2299002E01FF"
+            BuildableName = "FlickrBrowserAss.app"
+            BlueprintName = "FlickrBrowserAss"
+            ReferencedContainer = "container:FlickrBrowserAss.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -79,10 +79,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "18B9E89718841CCE0084D744"
-            BuildableName = "HelloPoly.app"
-            BlueprintName = "HelloPoly"
-            ReferencedContainer = "container:HelloPoly.xcodeproj">
+            BlueprintIdentifier = "1856BA3B18EA2299002E01FF"
+            BuildableName = "FlickrBrowserAss.app"
+            BlueprintName = "FlickrBrowserAss"
+            ReferencedContainer = "container:FlickrBrowserAss.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
