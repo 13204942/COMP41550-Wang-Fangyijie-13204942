@@ -82,7 +82,7 @@
     
     double money = [_singleRecordMoney doubleValue];
     
-    if ((money > 0.00) || (money == 0.00)) {
+    if ((money > 0.00)) {
         recordMoney.text = [_singleRecordMoney stringValue];
         recordMoney.textColor = [UIColor colorWithRed:39.0f/255.0
                                                green:224.0f/255.0

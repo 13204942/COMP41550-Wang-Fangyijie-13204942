@@ -158,7 +158,7 @@
                                 </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DfL-ks-9F0">
-                                <rect key="frame" x="109" y="430" width="104" height="30"/>
+                                <rect key="frame" x="108" y="430" width="104" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="15"/>
                                 <state key="normal" title="Scan Bar Code">
@@ -216,13 +216,13 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <gestureRecognizers/>
                         <constraints>
+                            <constraint firstItem="DfL-ks-9F0" firstAttribute="leading" secondItem="HMf-q2-xxV" secondAttribute="leading" constant="108" id="4xd-cB-e3P"/>
+                            <constraint firstAttribute="trailing" secondItem="DfL-ks-9F0" secondAttribute="trailing" constant="108" id="7qn-av-MQS"/>
                             <constraint firstAttribute="bottom" secondItem="DfL-ks-9F0" secondAttribute="bottom" constant="20" id="Fvv-69-uav"/>
-                            <constraint firstAttribute="trailing" secondItem="DfL-ks-9F0" secondAttribute="trailing" constant="107" id="UN2-Vz-dCV"/>
                             <constraint firstItem="EnO-gp-bOQ" firstAttribute="leading" secondItem="HMf-q2-xxV" secondAttribute="leading" constant="20" id="Zgx-Vp-6C3"/>
                             <constraint firstAttribute="bottom" secondItem="jao-xa-VeK" secondAttribute="bottom" constant="20" id="dWf-dh-cZo"/>
                             <constraint firstAttribute="bottom" secondItem="EnO-gp-bOQ" secondAttribute="bottom" constant="20" id="flJ-7Q-NVP"/>
                             <constraint firstAttribute="trailing" secondItem="jao-xa-VeK" secondAttribute="trailing" constant="20" id="q93-J9-6oA"/>
-                            <constraint firstItem="DfL-ks-9F0" firstAttribute="leading" secondItem="HMf-q2-xxV" secondAttribute="leading" constant="109" id="zI0-bX-ry3"/>
                         </constraints>
                         <connections>
                             <outletCollection property="gestureRecognizers" destination="A6l-YS-Klg" appends="YES" id="7N9-pb-gbi"/>
@@ -267,7 +267,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="81O-uf-75b">
-                                <rect key="frame" x="130" y="312" width="60" height="33"/>
+                                <rect key="frame" x="130" y="312" width="60" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="20"/>
                                 <state key="normal" title="Scan">
@@ -321,8 +321,8 @@
                             <constraint firstItem="81O-uf-75b" firstAttribute="top" secondItem="Ikg-tf-mdB" secondAttribute="bottom" constant="61" id="bBV-hd-kZQ"/>
                             <constraint firstItem="81O-uf-75b" firstAttribute="top" secondItem="7G9-Tp-43W" secondAttribute="bottom" constant="8" symbolic="YES" id="d97-3f-aNS"/>
                             <constraint firstItem="pLP-I3-hw2" firstAttribute="top" secondItem="w4B-wy-ebL" secondAttribute="top" constant="33" id="dBp-13-Wch"/>
-                            <constraint firstAttribute="bottom" secondItem="81O-uf-75b" secondAttribute="bottom" constant="135" id="efE-Qx-4DU"/>
                             <constraint firstItem="Ikg-tf-mdB" firstAttribute="centerX" secondItem="7G9-Tp-43W" secondAttribute="centerX" id="hho-ed-DtF"/>
+                            <constraint firstItem="E1E-uZ-T8l" firstAttribute="top" secondItem="81O-uf-75b" secondAttribute="bottom" constant="134" id="pIS-Gg-eQm"/>
                             <constraint firstItem="Ikg-tf-mdB" firstAttribute="centerX" secondItem="81O-uf-75b" secondAttribute="centerX" id="sIz-jQ-61b"/>
                             <constraint firstItem="7G9-Tp-43W" firstAttribute="leading" secondItem="pLP-I3-hw2" secondAttribute="leading" id="ue8-9K-LAv"/>
                         </constraints>
@@ -353,7 +353,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="50" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="Own-ky-2wt">
-                                <rect key="frame" x="0.0" y="159" width="320" height="271"/>
+                                <rect key="frame" x="0.0" y="159" width="320" height="272"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
@@ -423,20 +423,34 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" misplaced="YES" minimumZoomScale="3" maximumZoomScale="8" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j6H-Iz-0L7">
-                                <rect key="frame" x="20" y="90" width="280" height="473"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" minimumZoomScale="3" maximumZoomScale="8" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j6H-Iz-0L7">
+                                <rect key="frame" x="20" y="95" width="280" height="279"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <mutableString key="text">                  My Account (V 1.0) My Account is a easy account iOS APP for all iPhone users. Easy to use, easy to record.Scan bar code and bar grapgh help you manage your own account.Contatc usEmail: fangyijie.wang@ucdconnect.ieAddress: NO.19 Ashfield park,       Donnybrook,       Dublin 4       Co. Dublin       IrelandCopyright© Fangyijie Wang ie.ucd.csi, 2014. All rights reserved</mutableString>
+                                <string key="text">                  My Account (V 1.0)
+ My Account is a easy account iOS APP for all iPhone users. Easy to use, easy to record.
+Scan bar code and bar grapgh help you manage your own account.
+
+Contatc us
+Email: fangyijie.wang@ucdconnect.ie
+Address: NO.19 Ashfield park,
+       Donnybrook,
+       Dublin 4
+       Co. Dublin
+       Ireland
+
+
+Copyright© Fangyijie Wang ie.ucd.csi, 2014. All rights reserved
+</string>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="j6H-Iz-0L7" secondAttribute="trailing" constant="20" id="IQu-ON-Y7A"/>
-                            <constraint firstItem="j6H-Iz-0L7" firstAttribute="top" secondItem="VQs-1I-ECj" secondAttribute="top" constant="90" id="SoD-Fg-3sN"/>
-                            <constraint firstItem="j6H-Iz-0L7" firstAttribute="leading" secondItem="VQs-1I-ECj" secondAttribute="leading" constant="20" id="TX8-om-tWB"/>
-                            <constraint firstAttribute="bottom" secondItem="j6H-Iz-0L7" secondAttribute="bottom" constant="120" id="eaS-XQ-i04"/>
+                            <constraint firstAttribute="trailing" secondItem="j6H-Iz-0L7" secondAttribute="trailing" constant="20" id="2sY-iV-5T1"/>
+                            <constraint firstItem="j6H-Iz-0L7" firstAttribute="top" secondItem="VQs-1I-ECj" secondAttribute="top" constant="95" id="El3-I8-lKt"/>
+                            <constraint firstAttribute="bottom" secondItem="j6H-Iz-0L7" secondAttribute="bottom" constant="106" id="Nsj-xq-5zP"/>
+                            <constraint firstItem="j6H-Iz-0L7" firstAttribute="leading" secondItem="VQs-1I-ECj" secondAttribute="leading" constant="20" id="Ujb-43-wfm"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="About" image="info-32.png" id="skH-tq-HbJ"/>
@@ -462,7 +476,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" alwaysBounceHorizontal="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Crn-3x-WdR">
-                                <rect key="frame" x="0.0" y="102" width="320" height="239"/>
+                                <rect key="frame" x="0.0" y="102" width="320" height="240"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </scrollView>
                         </subviews>
@@ -491,7 +505,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="WIf-FZ-pJ3">
-                                <rect key="frame" x="0.0" y="235" width="320" height="245"/>
+                                <rect key="frame" x="0.0" y="235" width="320" height="246"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
@@ -582,8 +596,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="top" fixedFrame="YES" minimumZoomScale="4" maximumZoomScale="8" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ENp-JL-8yB">
-                                <rect key="frame" x="26" y="322" width="280" height="108"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="top" minimumZoomScale="4" maximumZoomScale="8" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ENp-JL-8yB">
+                                <rect key="frame" x="20" y="322" width="280" height="104"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, </string>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
@@ -633,6 +647,12 @@
                             </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ENp-JL-8yB" firstAttribute="top" secondItem="KIg-Vi-QmR" secondAttribute="top" constant="322" id="MVK-pj-smA"/>
+                            <constraint firstAttribute="bottom" secondItem="ENp-JL-8yB" secondAttribute="bottom" constant="54" id="VLD-yv-TPH"/>
+                            <constraint firstItem="ENp-JL-8yB" firstAttribute="leading" secondItem="KIg-Vi-QmR" secondAttribute="leading" constant="20" id="xlp-RM-YCd"/>
+                            <constraint firstAttribute="trailing" secondItem="ENp-JL-8yB" secondAttribute="trailing" constant="20" id="zVh-cM-1tZ"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="bhx-2C-Rbh">
                         <nil key="title"/>

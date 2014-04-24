@@ -68,6 +68,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.myDelegate = (AppDelegate *)[[UIApplication sharedApplication]delegate];
+    
     [entertime setText:[DateOperation getCurrentTime]];
     
     enterprice.textColor = [UIColor colorWithRed:255.0f/255.0
@@ -77,7 +78,7 @@
     
     enterprice.keyboardType = UIKeyboardTypeDecimalPad;
     
-
+    entertitle.placeholder = NSLocalizedString(@"Title", @" ");
     enterprice.placeholder = NSLocalizedString(@"00.00", @" ");
     
     [self createTextView];
@@ -181,13 +182,24 @@
 //    NSString *midstring = [priceFormatter stringFromNumber:[NSNumber numberWithDouble:enterpricedouble]];
     
     
-    if (![stringenterprice isEqual:midstring]) {
+    if (!self.myDelegate) {
+        UIAlertView *saveFailed = [[UIAlertView alloc] initWithTitle:@"Alert"
+                                                             message:@"Fail to save."
+                                                            delegate:nil
+                                                   cancelButtonTitle:@"Try again"
+                                                   otherButtonTitles:nil, nil];
+        [saveFailed show];
+        
+    }else if (![stringenterprice isEqual:midstring])
+    {
+        myDelegate.managedObjectContext = nil;
         UIAlertView *changePriceFormat = [[UIAlertView alloc] initWithTitle:@"Alert"
                                                                     message:@"Your price is not with the correct format."
                                                                    delegate:nil
                                                           cancelButtonTitle:@"Back"
                                                           otherButtonTitles:nil, nil];
         [changePriceFormat show];
+        
     }else
     {
         
@@ -219,7 +231,6 @@
     enterprice.text = nil;
     enterdescription.text = nil;
     entertitle.text = nil;
-    entertime.text = nil;
     
 }
 
