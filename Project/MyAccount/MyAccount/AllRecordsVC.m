@@ -52,6 +52,12 @@
         NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
         abort();
     }
+    
+    
+    [self.navigationController.navigationBar setTitleTextAttributes:
+     [NSDictionary dictionaryWithObjectsAndKeys:
+      [UIFont fontWithName:@"American Typewriter" size:18],
+      NSFontAttributeName, nil]];
 }
 
 
@@ -118,6 +124,8 @@
     NSString *recordTime = [dateFormat stringFromDate:record.time];
     
     cell.detailTextLabel.text = recordTime;
+    
+    cell.textLabel.font = [UIFont fontWithName:@"American Typewriter" size:15];
     
     return cell;
 }

@@ -27,6 +27,11 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    [self.navigationController.navigationBar setTitleTextAttributes:
+     [NSDictionary dictionaryWithObjectsAndKeys:
+      [UIFont fontWithName:@"American Typewriter" size:18],
+      NSFontAttributeName, nil]];
 }
 
 - (void)didReceiveMemoryWarning

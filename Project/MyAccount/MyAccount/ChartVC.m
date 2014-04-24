@@ -56,6 +56,11 @@
                                                             gradient:nil];
     [self.view addSubview:chartView];
     [chartView addSubview:barChartView];
+    
+    [self.navigationController.navigationBar setTitleTextAttributes:
+     [NSDictionary dictionaryWithObjectsAndKeys:
+      [UIFont fontWithName:@"American Typewriter" size:18],
+      NSFontAttributeName, nil]];
 
 
 }

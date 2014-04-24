@@ -81,6 +81,12 @@
                                                  blue:14.0f/255.0
                                                 alpha:1];
     }
+    
+    
+    [self.navigationController.navigationBar setTitleTextAttributes:
+     [NSDictionary dictionaryWithObjectsAndKeys:
+      [UIFont fontWithName:@"American Typewriter" size:18],
+      NSFontAttributeName, nil]];
 
 }
 
@@ -204,6 +210,8 @@
     NSString *recordTime = [dateFormat stringFromDate:record.time];
     
     cell.detailTextLabel.text = recordTime;
+    
+    cell.textLabel.font = [UIFont fontWithName:@"American Typewriter" size:15];
     
     return cell;
 

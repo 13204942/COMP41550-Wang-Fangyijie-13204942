@@ -42,8 +42,15 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    
     NSArray *array = [[NSArray alloc] initWithObjects:@"Today",@"Week",@"Month", nil];
     self.todayWeekMonth = array;
+    
+    [self.navigationController.navigationBar setTitleTextAttributes:
+     [NSDictionary dictionaryWithObjectsAndKeys:
+      [UIFont fontWithName:@"American Typewriter" size:18],
+      NSFontAttributeName, nil]];
 
 }
 
@@ -88,6 +95,8 @@
     {
         cell.detailTextLabel.text = [DateOperation getCurrentMonth];
     }
+    
+    cell.textLabel.font = [UIFont fontWithName:@"American Typewriter" size:15];
     
     return cell;
 }

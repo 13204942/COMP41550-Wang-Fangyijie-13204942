@@ -103,16 +103,21 @@
     recordTitle.text = _singleRecordTitle;
     description.text = _singleRecordDescription;
     
-    description.backgroundColor = [UIColor colorWithRed:255.0f/255.0
-                                                  green:255.0f/255.0
-                                                   blue:240.0f/255.0
+    description.backgroundColor = [UIColor colorWithRed:250.0f/255.0
+                                                  green:250.0f/255.0
+                                                   blue:250.0f/255.0
                                                   alpha:1];
     description.font = [UIFont fontWithName:@"System" size:18];
     
-    [description.layer setBorderColor:[[UIColor grayColor] CGColor]];
+    [description.layer setBorderColor:[[UIColor lightGrayColor] CGColor]];
     [description.layer setBorderWidth:0.8];
     [description.layer setCornerRadius:7.0f];
     [description.layer setMasksToBounds:YES];
+    
+    [self.navigationController.navigationBar setTitleTextAttributes:
+     [NSDictionary dictionaryWithObjectsAndKeys:
+      [UIFont fontWithName:@"American Typewriter" size:18],
+      NSFontAttributeName, nil]];
     
     
 }
